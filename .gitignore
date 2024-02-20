@@ -4,3 +4,8 @@
 *.swl
 *.swn
 *.pyc
+
+/data/*
+
+!/data/model_verifier.py
+!/data/README.md
