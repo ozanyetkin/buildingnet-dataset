@@ -25,6 +25,7 @@ OUTPATH=./outputs/$DATASET/$MODEL/${OPTIMIZER}-l$LR-b$BATCH_SIZE-$SCHEDULER-e$MA
 VERSION=$(git rev-parse HEAD)
 
 # Save the experiment detail and dir to the common log file
+echo $OUTPATH
 mkdir -p $OUTPATH
 
 LOG="$OUTPATH/$TIME.txt"
